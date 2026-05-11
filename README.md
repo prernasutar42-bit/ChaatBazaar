@@ -1,6 +1,6 @@
-# ChaatBazar 🍴
+# ChaatBazaar 🍴
 
-ChaatBazar is an interactive online street food platform dedicated to bringing authentic Indian snacks like samosa, kachori, and pani puri closer to food lovers within a 5 km delivery radius. It helps users discover regional delicacies often overshadowed by global food trends.
+ChaatBazaar is an interactive online street food platform dedicated to bringing authentic Indian snacks like samosa, kachori, and pani puri closer to food lovers within a 5 km delivery radius. It helps users discover regional delicacies often overshadowed by global food trends.
 
 ## Tech Stack
 - HTML, CSS, JavaScript  
@@ -28,10 +28,10 @@ ChaatBazar is an interactive online street food platform dedicated to bringing a
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-## 📥 Submitting a Pull Request
+## 📥 Submitting a Pull Request for First time :
 
 
-Follow these steps to contribute your changes to **ChaatBazar**:
+Follow these steps to contribute your changes to **ChaatBazaar**:
 
 1. **🌟 Star & Fork the Repository**  
    Click the **“Fork”** the repo to create your own copy:  
@@ -40,8 +40,12 @@ Follow these steps to contribute your changes to **ChaatBazar**:
 2. **📥 Clone Your Fork**  
    Use the following command to clone your forked repository to your local machine:
    ```bash
-   git clone https://github.com/PatelHarsh2006/ChaatBaazar.git
+   git clone https://github.com/PatelHarsh2006/ChaatBazaar.git
    ```
+   OR 
+  In Github Desktop app : 
+  Current repository  ->  Add  ->> Clone repository  ->  Choose repository  ->  Clone.
+   
  3. Create a Branch
     Navigate to the project directory and create a new branch for your changes:
 
@@ -77,3 +81,56 @@ Follow these steps to contribute your changes to **ChaatBazar**:
 
     Link the related issue (if any) and clearly describe your changes.
     
+
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+
+
+## Important points for Contributors to keep in Mind :
+
+If the original repository gets updated after you fork it, you should sync your fork before creating a new PR. This prevents merge conflicts and outdated code.
+So always follow the below steps, before any Pull request, for the corresponding Branch, to keep the repository upto date :
+
+
+
+### Method 1: Using Git Commands (Terminal Users)
+
+###  Fetch latest changes from original repo
+
+git fetch upstream
+
+---
+
+
+### Step - 2: Merge changes into your local main branch
+
+git merge upstream/main
+
+---
+
+### Step - 3: Push updated code to your fork
+
+git push origin main
+
+---
+
+
+### Method 2:  If using Github Desktop app :
+
+### Step - 1: 
+1. Go to your forked repository on GitHub webpage
+2. Click "Sync fork" button (if visible)
+3. Click "Update branch"
+
+Done ✔️
+
+---
+
+### Step - 2: 
+
+In Github Desktop app :
+
+Set current Repository to ChatBazaar  ->  Fetch Origin  ->  Pull changes (if visible)
+
+---
